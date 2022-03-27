@@ -15,8 +15,8 @@ PyInstaller
 (To make a standalone app for windows (.exe))
 <br/>
 Steps: 
-<p style="margin-left:20px">1. To install the package: <span style="font-style: italic;" >pip install pyinstaller</span></p>
-<p style="margin-left:20px">2. Run the command to make executable file: <span style="font-style: italic;" >pyinstaller --onefile --windowed --icon=icon.ico .\main.py</span></p>
+<p style="margin-left:20px">1. To install the package: <span style="font-style: italic !important;" >pip install pyinstaller</span></p>
+<p style="margin-left:20px">2. Run the command to make executable file: <span style="font-style: italic !important;" >pyinstaller --onefile --windowed --icon=icon.ico .\main.py</span></p>
 
 ## For Icons
 Made a script to convert picture to bytes data. (pic2str.py) 
