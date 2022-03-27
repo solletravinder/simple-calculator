@@ -1,10 +1,18 @@
 import tkinter as tk
+import os, base64, io
+
+from pic2str import explode
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 class Application(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
         self.master = master
         self.master.configure(background="white")
+        byte_data = base64.b64decode(explode)
+        photo = tk.PhotoImage(data = byte_data)
+        self.master.iconphoto(False, photo)
         self.master.title("Simple Calculator")
         self.master.geometry("270x150")
 
