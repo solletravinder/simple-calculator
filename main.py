@@ -134,6 +134,7 @@ class Application(tk.Frame):
     # def __remain_num(self, a, b):
     #     return a % b if a and b else 0
 
-root = tk.Tk()
-app = Application(master=root)
-app.mainloop()
+if __name__ == '__main__':
+    root = tk.Tk()
+    app = Application(master=root)
+    app.mainloop()
